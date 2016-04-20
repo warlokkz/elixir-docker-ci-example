@@ -3,7 +3,7 @@
 set -e
 
 export ERLANG_VERSION="18"
-export ELIXIR_VERSION="v1.3.0"
+export ELIXIR_VERSION="v1.2.3"
 
 # If you have a elixir_buildpack.config, do this instead:
 #export ERLANG_VERSION=$(cat elixir_buildpack.config | grep erlang_version | tr "=" " " | awk '{ print $2 }')
