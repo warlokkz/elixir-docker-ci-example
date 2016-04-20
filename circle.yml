@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - script/ci/prepare.sh
+    - ./circle-prepare.sh
   cache_directories:
     - ~/dependencies
     - ~/.mix
