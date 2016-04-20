@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - ./circle-prepare.sh
+    - bash ./circle-prepare.sh
   cache_directories:
     - ~/dependencies
     - ~/.mix
@@ -9,4 +9,4 @@ dependencies:
 
 test:
   override:
-    - ./circle-tests.sh
+    - bash ./circle-tests.sh
