@@ -3,6 +3,7 @@ deployment:
     branch: master
     commands:
       - $DOCKER_HUB_TRIGGER
+
 dependencies:
   pre:
     - bash ./circle-prepare.sh
